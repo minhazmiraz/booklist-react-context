@@ -10,3 +10,9 @@
 - `useState`
 - `useContext`
 - `createContext`
+- `useEffect`
+- `useReducer`
+
+### Demo
+
+![BookList.gif](./BookList.gif)

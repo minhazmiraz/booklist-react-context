@@ -1,6 +1,6 @@
-const BookDetails = ({ book, removeBook }) => {
+const BookDetails = ({ book, dispatch }) => {
   return (
-    <li onClick={() => removeBook(book.id)}>
+    <li onClick={() => dispatch({ type: "REMOVE_BOOK", id: book.id })}>
       <div className="title">{book.title}</div>
       <div className="author">
         Written by <i>{book.author}</i>
